@@ -83,7 +83,7 @@ class _HomePageState extends State<HomePage>
                         TextStyle(fontWeight: FontWeight.bold, fontSize: 20)),
               ],
             ),
-            onPressed: () => print("Devices"),
+            onPressed: () => Navigator.pushNamed(context, '/notification'),
           ),
           FilledButton.tonal(
             style: FilledButton.styleFrom(

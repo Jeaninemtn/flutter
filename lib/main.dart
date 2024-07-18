@@ -4,6 +4,7 @@ import './views/login.dart';
 import './views/home.dart';
 import './views/devices.dart';
 import './views/settings.dart';
+import './views/notification.dart';
 
 void main() => runApp(const MyApp());
 
@@ -23,11 +24,9 @@ class MyApp extends StatelessWidget {
         '/': (context) => const LoginPage(),
         '/home': (context) => const HomePage(),
         '/devices': (context) => const DevicesPage(),
-        '/settings': (context) => const SettingsPage()
+        '/settings': (context) => const SettingsPage(),
+        '/notification': (context) => const NotificationPage()
       },
-      // home: const LoginPage()
-      // home: const HomePage()
-      // home: const DevicesPage()
     );
   }
 }
