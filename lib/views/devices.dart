@@ -47,7 +47,7 @@ class _DevicesPageState extends State<DevicesPage> {
           ],
           backgroundColor: Colors.deepPurple[300],
         ),
-        body: const DeviceList(),
+        body: DeviceList(selectedView: selectedView),
     );
   }
 }
